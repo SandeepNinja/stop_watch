@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #ff9500;
+}
+body {
+  background-color: black;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #696666ba;
+  font-weight: 700;
+  font-size: xx-large;
+}
+.channelName {
+  position: absolute;
+  left: 20px;
+}
+.navStopWatch {
+}
+main {
+  display: flex;
+  /* justify-content: ce    nter; */
+  flex-direction: column;
+  align-items: center;
+}
+/* counter */
+#countDown {
+  font-size: 115px;
+  color: #ff9500;
+  margin: 50px;
+}
+
+#milliSecondDisplay {
+  font-size: 6vw;
+}
+/* button */
+.btnFirstSection {
+  position: absolute;
+  z-index: 0;
+}
+.btnSecondSection {
+  /* position: absolute; */
+  z-index: 100;
+}
+button {
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: large;
+  margin: 10px;
+  background-color: #1e1e1e;
+}
+button:active {
+  background-color: darkgray;
+}
+
+.lapPause {
+  /* visibility: hidden;
+  position: absolute; */
+}
+
+/* Time lapse container */
+.timeLapseContainer {
+  margin-top: 20px;
+}
+/* lap list container */
+.lapListContainer {
+  list-style: NONE;
+  margin-top: 5px;
+}
+.lapListContainer li {
+  padding: 5px;
+}
+
+tr {
+  height: 30px;
+}
+th {
+  box-shadow: inset 0 0 10px dimgray;
+}
+
+table {
+  width: 70vw;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+/* media quary */
+
+@media screen and (max-width: 856px) {
+  #countDown {
+    font-size: 12vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+  }
+  .channelName {
+    position: static;
+  }
+}

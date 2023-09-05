@@ -1,0 +1,11 @@
+{
+  "name": "stop_watch_frontend",
+  "version": "1.0.0",
+  "description": "stop watch all functions we have develop in this web application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sandeep Vishwakarma",
+  "license": "ISC"
+}
